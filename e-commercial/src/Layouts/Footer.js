@@ -119,6 +119,12 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="w-full h-[74px] mt-[70px] bg-[#FAFAFA]">
+        <p className="m-auto w-[80%] pt-[28px] font-mont-h5 text-[#737373]">
+          {" "}
+          Made With Love By Finland All Right Reserved
+        </p>
+      </div>
     </div>
   );
 }
