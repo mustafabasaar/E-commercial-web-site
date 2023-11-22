@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @layer components{
+    .font-mont-h3{
+        @apply font-["Montserrat"] font-bold text-2xl;
+
+    }
+    .font-mont-h5{
+        @apply font-["Montserrat"] font-bold text-base;
+    }
+    .font-mont-a{
+        @apply font-["Montserrat"] font-bold text-base text-[#737373] ;
+    }
+    .font-mont-p{
+        @apply font-["Montserrat"] font-normal text-xs text-[#737373]  leading-7 ;
+    }
+
+} 
