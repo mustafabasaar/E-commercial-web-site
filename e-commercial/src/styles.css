@@ -15,7 +15,7 @@
         @apply font-["Montserrat"] font-bold text-base text-[#737373] ;
     }
     .font-mont-p{
-        @apply font-["Montserrat"] font-normal text-xs text-[#737373]  leading-7 ;
+        @apply font-["Montserrat"] font-normal text-xs text-[#737373] ;
     }
 
 } 
