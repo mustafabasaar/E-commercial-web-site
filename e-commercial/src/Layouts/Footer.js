@@ -93,23 +93,23 @@ function Footer() {
               API
             </a>
           </div>
-          <div class=" flex flex-col ">
+          <div className=" flex flex-col ">
             <div>
-              <label for="email" className=" font-mont-h5 ">
+              <label htmlFor="email" className=" font-mont-h5 ">
                 Get In Touch
               </label>
-              <div class="flex pt-[14px] ">
+              <div className="flex pt-[14px] ">
                 <input
                   type="email"
                   id="email"
                   name="email"
-                  class="bg-[#F9F9F9] border border-gray-300 rounded-l-md px-4 w-[250px] h-[58px] "
+                  className="bg-[#F9F9F9] border border-gray-300 rounded-l-md px-4 w-[250px] h-[58px] "
                   placeholder="Your Email"
                   required
                 />
                 <button
                   type="submit"
-                  class="bg-[#23A6F0] text-white rounded-r-md px-4 py-2 hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+                  className="bg-[#23A6F0] text-white rounded-r-md px-4 py-2 hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
                 >
                   Subscribe
                 </button>

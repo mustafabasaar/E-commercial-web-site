@@ -1,7 +1,15 @@
-import Header from "../Layouts/Header";
+import Footer from "../Layouts/Footer";
+import Hero from "../Components/Hero";
+import HomeBestSellers from "../Components/Hero";
+import BottomSlider from "../Components/Hero";
 
 function HomePage() {
-  return <Header />;
+  return (
+    <>
+      <Hero />
+      <Footer />
+    </>
+  );
 }
 
 export default HomePage;
