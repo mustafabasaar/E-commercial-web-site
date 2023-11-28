@@ -1,5 +1,5 @@
 import React from "react";
-import { Images } from "../assets/Images";
+
 import { Data } from "../assets/Data";
 
 function HomeBestSellerCard() {
