@@ -9,28 +9,28 @@ import {
 
 const items = [
   {
-    src: Images.sliders.slider1,
+    src: Images.sliders.slider2,
     collection: "SUMMER 2020",
-    header: "NEW COLLECTION",
+    header: "Vita Classic Product",
     description:
-      "We know how large objects will act, but things on a small scale.",
+      "We know how large objects will act, We know how are objects will act, We know",
     altText: "Slide 1",
     caption: "Slide 1",
     key: 1,
   },
   {
-    src: Images.sliders.slider1_2,
+    src: Images.sliders.slider2_1,
     collection: "SUMMER 2020",
-    header: "NEW COLLECTION",
+    header: "Vita Classic Product ",
     description:
-      "We know how large objects will act, but things on a small scale.",
+      "We know how large objects will act, We know how are objects will act, We know",
     altText: "Slide 1",
     caption: "Slide 1",
-    key: 2,
+    key: 1,
   },
 ];
 
-function TopSlider(args) {
+function SliderHomeTwo(args) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -58,31 +58,32 @@ function TopSlider(args) {
         onExited={() => setAnimating(false)}
         key={item.key}
       >
-        <div className="flex items-center justify-start relative">
+        <div className="flex items-center justify-start relative bg-[#23856D] h-[711px] ">
           <div className="w-full">
             <img
               src={item.src}
               alt={item.altText}
-              className="w-full h-screen object-cover  "
+              className="w-[443px] h-[685px] absolute top-[86px] right-[215px]"
             />
           </div>
           <div className=" flex flex-col gap-9 my-9 ml-[15%] absolute">
-            <h5 className="text-white text-base font-bold leading-normal">
+            <h5 className="text-white text-base font-bold leading-normal ">
               {item.collection}
             </h5>
-            <h1 className="text-white text-6xl font-bold leading-normal">
+            <h1 className="text-white text-[58px] font-bold leading-normal  w-[80%]">
               {item.header}
             </h1>
-            <h4 className="text-neutral-50 text-[20px] font-normal leading-8 w-[60%]">
+            <h4 className="text-neutral-50 text-[14px] font-normal leading-[20px]  w-[60%]">
               {item.description}
             </h4>
-            <a
-              href="/productlist"
-              className="bg-[#2DC071] px-[2.5rem] py-[1rem] w-[50%] text-center rounded text-white text-2xl font-bold leading-loose hover:bg-[#23856D]  duration-300 "
-            >
-              SHOP NOW
-            </a>
+            <div className="flex items-center gap-[34px]">
+              <p className="text-[24px] text-white font-bold">$16.48</p>
+              <button className="bg-[#2DC071] px-[40px] py-[15px]  text-center rounded text-white text-2xl font-bold leading-loose ">
+                ADD TO CART
+              </button>
+            </div>
           </div>
+          <div></div>
         </div>
       </CarouselItem>
     );
@@ -115,4 +116,4 @@ function TopSlider(args) {
   );
 }
 
-export default TopSlider;
+export default SliderHomeTwo;

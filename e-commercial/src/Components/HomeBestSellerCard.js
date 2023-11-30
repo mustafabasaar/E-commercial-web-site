@@ -1,9 +1,8 @@
 import React from "react";
-
-import { Data } from "../assets/Data";
+import { AllData } from "../assets/AllData";
 
 function HomeBestSellerCard() {
-  const items = Data.bestSellers;
+  const items = AllData.bestSellers;
 
   return (
     <div className="flex gap-[50px] flex-wrap items-center justify-center pb-[80px]">
