@@ -16,7 +16,7 @@ function HomeBestSellers() {
           Problems trying to resolve the conflict between
         </h4>
       </div>
-      <div className="">
+      <div>
         <HomeBestSellerCard />
       </div>
     </div>

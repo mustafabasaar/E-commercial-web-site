@@ -3,11 +3,11 @@ import "react-toastify/dist/ReactToastify.css";
 import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
 import Contact from "./Pages/Contact";
 import Product from "./Pages/Product";
-import About from "./Pages/Contact";
-import ProductList from "./Pages/Contact";
-import Pricing from "./Pages/Contact";
-import Team from "./Pages/Contact";
-import Blog from "./Pages/Contact";
+import About from "./Pages/About";
+import ProductList from "./Pages/ProductList";
+import Pricing from "./Pages/Pricing";
+import Team from "./Pages/Team";
+import Blog from "./Pages/Blog";
 function App() {
   return (
     <div>
